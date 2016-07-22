@@ -18,8 +18,8 @@
         "laravel/framework": "5.*"
     },
     "autoload": {
-        "psr-0": {
-            "Cali\\YuntongxunSms": "src/"
+        "psr-4": {
+            "Cali\\YuntongxunSms\\": "src/"
         }
     }
 }
