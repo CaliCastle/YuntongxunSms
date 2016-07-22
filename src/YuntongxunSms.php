@@ -32,7 +32,7 @@ class YuntongxunSms {
     {
         $this->time = Carbon::now()->format('YmdHis');
 
-        $this->config = Config::get('yuntongxun');
+        $this->config = Config::get('sms');
     }
 
     /**
