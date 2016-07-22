@@ -1,8 +1,10 @@
 {
     "name": "cali/yuntongxun-sms",
+    "type": "library",
     "description": "云通讯短信",
     "keywords": ["laravel laravel5 sms php"],
     "license": "MIT",
+    "homepage": "https://github.com/CaliCastle/YuntongxunSms",
     "authors": [
           {
               "name": "Cali Castle",
@@ -10,13 +12,12 @@
           }
       ],
       "require": {
-          "php": ">=5.5.0",
+          "php": ">=5.5.9",
           "laravel/framework": "5.2.*"
       },
       "autoload": {
-          "psr-0": {
+          "psr-4": {
               "Cali\\YuntongxunSms": "src/"
           }
-      },
-      "minimum-stability": "stable"
+      }
 }
